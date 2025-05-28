@@ -2439,8 +2439,8 @@ methods:
 
       #### Character Loading Event order
 
-      Calling the `Class.Player:LoadCharacter()` with an R15 Avatar fires events
-      in the following order (Note: R6 ordering is different):
+      Calling the `Class.Player:LoadCharacter()` on any Player fires events
+      in the following order:
 
       1. Player.Character sets
       2. Player.CharacterAdded fires
